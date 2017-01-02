@@ -1,0 +1,107 @@
+body {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+/* 	overflow: hidden; */
+}
+
+
+p {
+	color: white;
+	font-size: 50px;
+	transform: translate(850px, -140px);
+	margin-bottom: -240px;
+}
+
+
+.main-text {
+	transform: translate(-850px, -60px);
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  font: normal 100px/normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+	text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+}
+
+
+
+.main-text{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        0% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+        50% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ; }
+        100% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) 								, 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  						-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+    }
+    @-moz-keyframes color-change {
+        0% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+        50% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ; }
+        100% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) 								, 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  						-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+    }
+    @-ms-keyframes color-change {
+        0% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+        50% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ; }
+        100% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) 								, 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  						-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+    }
+    @-o-keyframes color-change {
+        0% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+        50% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ; }
+        100% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) 								, 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  						-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+    }
+    @keyframes color-change {
+        0% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  					-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  					transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+        50% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 							0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ; }
+        100% { text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) 								, 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  						-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  						transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) }
+    }
