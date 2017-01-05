@@ -1,0 +1,52 @@
+body, div:after {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: url(http://www.twitrcovers.com/wp-content/uploads/2013/09/Outer-Space-Stars-l.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container {
+	width: 500px;
+	height: 400px;
+	position: relative;
+	margin: 100px auto 0 auto;
+	position: relative; 
+  background: rgba(255,255,255,.25);
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,.2);
+	font: 150%/1.6 sans-serif;
+	text-align: center;
+	box-shadow: -1px -1px 10px rgba(255,255,255,.3) inset,
+		2px 2px 20px rgba(0,0,0,.5);
+	text-shadow: 0 1px 1px rgba(255,255,255,.6);
+}
+ 
+div:after {
+	content: '';
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: -1;
+	border-radius:inherit;
+	-webkit-filter: blur(3px);
+}
+
+p {
+	text-align: center;
+	margin: 10px;
+	padding: 10%;
+	color: #2A2C2A;
+	font-weight: bold;
+}
+
+i {
+	font-size: 50px;
+}
+
+
+
