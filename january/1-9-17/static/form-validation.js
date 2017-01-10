@@ -1,0 +1,35 @@
+var username;
+var usernameCount;
+var password;
+var ck_username = /^[A-z]+$/;
+
+//hide error divs
+$('.error').hide();
+
+
+$('#username').blur(function() {
+    usernameCount = $('#username').val().length;
+    username = $('#username').val();
+    //alert(usernameCount);
+    if(usernameCount < 2){
+        $('#username-error').show().html("Username is too short");      
+    }
+    else if (!ck_username.test(username)) {
+        $('#username-error').show().html("Username must be a-z");
+    }
+    else {
+        $("#username-error").hide();
+    }
+});
+
+
+$('#password').blur(function() {
+    password = $("#password").val().length;
+    if(password < 2) {
+        $('#password-error').show().html("Password is too short");
+    }
+    else {
+        $('#password-error').hide();
+    }
+})
+

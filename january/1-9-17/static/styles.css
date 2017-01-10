@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.form-container {
+    background-color: rgba(156, 165, 229, 0.75);
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    position: relative;
+    padding: 50px 40px;
+    border-radius: 20%;
+    text-align: center;
+    border: white 1px dashed;
+    
+}
+
+label {
+    padding: 0 20px 0 0;
+}
+
+.error {
+    background-color: rgba(240, 72, 22, 1);
+    height: 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-color: white;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    color: purple;
