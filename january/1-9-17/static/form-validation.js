@@ -7,7 +7,9 @@ var ck_username = /^[A-z]+$/;
 $('.error').hide();
 
 
-$('#username').blur(function() {
+//changed from blur to keyup so user can see any invalid errors before they even click outside the textbox
+
+$('#username').keyup(function() {
     usernameCount = $('#username').val().length;
     username = $('#username').val();
     //alert(usernameCount);
@@ -23,7 +25,7 @@ $('#username').blur(function() {
 });
 
 
-$('#password').blur(function() {
+$('#password').keyup(function() {
     password = $("#password").val().length;
     if(password < 2) {
         $('#password-error').show().html("Password is too short");
