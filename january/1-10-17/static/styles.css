@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#container {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+button {
+    background-color: yellow;
+    font-size: 20px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.teal {
+    height: 100px;
+    width: 250px;
+    background-color: rgba(22, 240, 237 ,1);
+    border-radius: 10px;
+    z-index: 0;
+    border: black 4px dotted;
+}
+
+.gray {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(211, 38, 80, 1);
+    border-radius: 100px;
+    z-index: 0;
+    border: rgba(16, 120, 230 , 1)  10px solid;
+    
+}
